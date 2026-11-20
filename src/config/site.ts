@@ -137,7 +137,7 @@ export const site = {
     title: "Say hello",
     intro:
       "Want a recipe, a kantha for someone special, or tips for your own rooftop garden? Send me a message — I read every one.",
-    email: "hello@tasnovaislam.com",
+    email: "tasnovadigital@gmail.com",
     phone: "+880 1XXX-XXXXXX",
   },
 
