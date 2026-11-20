@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- All site copy, photos, nav links and contact details live in `src/config/site.ts`; components only read from it, so content edits never touch components.
+- Colors, fonts and the light/dark palettes live only in `src/styles.css` tokens; the theme choice is stored in localStorage and applied by an inline script in `__root.tsx` to avoid a flash.
+- The contact form has no backend: it validates with zod (`src/lib/contact.ts`) and opens the visitor's email app via a mailto link.
